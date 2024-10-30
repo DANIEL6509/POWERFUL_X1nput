@@ -8,11 +8,11 @@ This project consists of two main components:
 2. Using X1nput to apply the defined statistics to the controller triggers. Here’s a detailed explanation:
 
 1. Reading the game output and calculating game statistics, with the following features:
-   - a❗️. Controlling the right vibration trigger based on RPM❗️ (as normalized RPM increases, the vibration intensity increases, creating a strong feedback sensation, achieved through an exponential function).
-   - b❗️. Controlling the left vibration trigger when ABS❗️ is activated (monitors wheel slip using the square root of the sum of the squares of the four wheels’ slip).
-   - c❗️. Generating vibrations upon collisions❗️ (monitors changes in acceleration; if the acceleration values in any direction are too high, a "BUMP" vibration is triggered).
-   - d❗️. Providing a vibration reminder when in reverse gear❗️ (monitors gear position).
-   - e❗. Ensuring that the triggers do not vibrate when the game is paused (if the engine RPM is 0, vibrations are paused. Thanks to [richstokes](https://github.com/richstokes/Forza-data-tools) for the inspiration).
+   - a. Controlling the right vibration trigger based on **RPM**❗️ (as normalized RPM increases, the vibration intensity increases, creating a strong feedback sensation, achieved through an exponential function).
+   - b. Controlling the left vibration trigger when **ABS**❗️ is activated (monitors wheel slip using the square root of the sum of the squares of the four wheels’ slip).
+   - c. Generating vibrations upon **Collisions**❗️ (monitors changes in acceleration; if the acceleration values in any direction are too high, a "BUMP" vibration is triggered).
+   - d. Providing a vibration reminder when in **Reverse Gear**❗️ (monitors gear position).
+   - e. Ensuring that the triggers do not vibrate when the game is paused (if the engine RPM is 0, vibrations are paused. Thanks to [richstokes](https://github.com/richstokes/Forza-data-tools) for the inspiration).
 
 2. Utilizing X1nput to apply the defined statistics to the controller triggers, modified from [araghon007](https://github.com/araghon007/X1nput). Here’s the original statement:  
    *X1nput is a reimplementation of Xinput using the Windows.Gaming.Input API, which provides better support for Xbox One controllers, including impulse triggers.*
@@ -45,10 +45,10 @@ This project has adopted the [Microsoft Open Source Code of Conduct](https://ope
 2. 使用 X1nput 將定義的統計數據應用於控制器的觸發器。以下是詳細說明：
 
 1. 讀取遊戲的輸出並計算遊戲統計數據，具有以下功能：
-   - a. 根據轉速控制右側震動觸發器（隨著正規化轉速的增加，震動強度也會增強，產生強烈的反饋感，這是通過指數函數實現的）。
-   - b. 當啟動 ABS 時控制左側震動觸發器（通過監控四個輪子的滑移平方和的平方根來實現）。
-   - c. 碰撞時產生震動（監控加速度變化；如果任何方向的加速度值過高，則觸發"BUMP"震動）。
-   - d. 倒退檔時提供震動提醒（監控檔位位置）。
+   - a. 根據**轉速**❗️控制右側震動觸發器（隨著正規化轉速的增加，震動強度也會增強，產生強烈的反饋感，這是通過指數函數實現的）。
+   - b. 當啟動 **ABS**❗️ 時控制左側震動觸發器（通過監控四個輪子的滑移平方和的平方根來實現）。
+   - c. **碰撞**❗️時產生震動（監控加速度變化；如果任何方向的加速度值過高，則觸發"BUMP"震動）。
+   - d. **倒退檔**❗️時提供震動提醒（監控檔位位置）。
    - e. 確保遊戲暫停時觸發器不會震動（如果引擎轉速為 0，則暫停震動。感謝 [richstokes](https://github.com/richstokes/Forza-data-tools) 的靈感）。
 
 2. 利用 X1nput 將定義的統計數據應用於控制器的觸發器，這是根據 [araghon007](https://github.com/araghon007/X1nput) 的修改。以下是他的原文：
