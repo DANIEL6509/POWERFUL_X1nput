@@ -1,5 +1,8 @@
 # Software Description
 
+<img src="https://github.com/DANIEL6509/POWERFUL_X1nput/blob/main/STEP_0.jpg?raw=true" alt="My Image1" style="width: 50%; height: auto;" />
+
+
 This project consists of two main components: 
 1. Reading the game output and processing it to obtain game statistics.
 2. Using X1nput to apply the defined statistics to the controller triggers. Here’s a detailed explanation:
@@ -64,7 +67,12 @@ This project has adopted the [Microsoft Open Source Code of Conduct](https://ope
    - c. 透過右鍵單擊 `X1nput.ini`，選擇 "以記事本打開"（或任何文本編輯器），來調整馬達震動的程度。
    - d. 請參考附帶的圖片，將遊戲中的遊戲輸出打開（使用您電腦的 IP 地址，並將 DATA OUT IP PORT 設定為 9999）。
 
-## 有關遊戲輸出內容解碼的詳細信息，請參閱[此鏈接]。
+## 有關遊戲輸出內容解碼的詳細信息，請參閱[https://github.com/DANIEL6509/Forza-Horizon-C-OUTPUT]。
+
+<img src="https://github.com/DANIEL6509/POWERFUL_X1nput/blob/main/STEP_1.png?raw=true" alt="Step 1" style="width: 50%; height: auto;" />
+<img src="https://github.com/DANIEL6509/POWERFUL_X1nput/blob/main/STEP_2.png?raw=true" alt="Step 2" style="width: 50%; height: auto;" />
+<img src="https://github.com/DANIEL6509/POWERFUL_X1nput/blob/main/STEP_3.png?raw=true" alt="Step 3" style="width: 50%; height: auto;" />
+
 
 ---
 
