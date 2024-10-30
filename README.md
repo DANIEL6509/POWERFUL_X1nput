@@ -8,11 +8,11 @@ This project consists of two main components:
 2. Using X1nput to apply the defined statistics to the controller triggers. Here’s a detailed explanation:
 
 1. Reading the game output and calculating game statistics, with the following features:
-   - a. Controlling the right vibration trigger based on RPM (as normalized RPM increases, the vibration intensity increases, creating a strong feedback sensation, achieved through an exponential function).
-   - b. Controlling the left vibration trigger when ABS is activated (monitors wheel slip using the square root of the sum of the squares of the four wheels’ slip).
-   - c. Generating vibrations upon collisions (monitors changes in acceleration; if the acceleration values in any direction are too high, a "BUMP" vibration is triggered).
-   - d. Providing a vibration reminder when in reverse gear (monitors gear position).
-   - e. Ensuring that the triggers do not vibrate when the game is paused (if the engine RPM is 0, vibrations are paused. Thanks to [richstokes](https://github.com/richstokes/Forza-data-tools) for the inspiration).
+   - a❗️. Controlling the right vibration trigger based on RPM❗️ (as normalized RPM increases, the vibration intensity increases, creating a strong feedback sensation, achieved through an exponential function).
+   - b❗️. Controlling the left vibration trigger when ABS❗️ is activated (monitors wheel slip using the square root of the sum of the squares of the four wheels’ slip).
+   - c❗️. Generating vibrations upon collisions❗️ (monitors changes in acceleration; if the acceleration values in any direction are too high, a "BUMP" vibration is triggered).
+   - d❗️. Providing a vibration reminder when in reverse gear❗️ (monitors gear position).
+   - e❗. Ensuring that the triggers do not vibrate when the game is paused (if the engine RPM is 0, vibrations are paused. Thanks to [richstokes](https://github.com/richstokes/Forza-data-tools) for the inspiration).
 
 2. Utilizing X1nput to apply the defined statistics to the controller triggers, modified from [araghon007](https://github.com/araghon007/X1nput). Here’s the original statement:  
    *X1nput is a reimplementation of Xinput using the Windows.Gaming.Input API, which provides better support for Xbox One controllers, including impulse triggers.*
