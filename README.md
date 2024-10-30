@@ -69,9 +69,9 @@ This project has adopted the [Microsoft Open Source Code of Conduct](https://ope
 
 ## 有關遊戲輸出內容解碼的詳細信息，請參閱[https://github.com/DANIEL6509/Forza-Horizon-C-OUTPUT]。
 
-<img src="https://github.com/DANIEL6509/POWERFUL_X1nput/blob/main/STEP_1.png?raw=true" alt="Step 1" style="width: 50%; height: auto;" />
-<img src="https://github.com/DANIEL6509/POWERFUL_X1nput/blob/main/STEP_2.png?raw=true" alt="Step 2" style="width: 50%; height: auto;" />
-<img src="https://github.com/DANIEL6509/POWERFUL_X1nput/blob/main/STEP_3.png?raw=true" alt="Step 3" style="width: 50%; height: auto;" />
+![My Image1](https://github.com/DANIEL6509/POWERFUL_X1nput/blob/main/STEP_1.png?raw=true)
+![My Image1](https://github.com/DANIEL6509/POWERFUL_X1nput/blob/main/STEP_2.png?raw=true)
+![My Image1](https://github.com/DANIEL6509/POWERFUL_X1nput/blob/main/STEP_3.png?raw=true)
 
 
 ---
